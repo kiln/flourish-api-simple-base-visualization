@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flourish API: Simple base visualization example</title>
+    <script src="https://cdn.flourish.rocks/flourish-live-v4.5.0.min.js"></script>
+</head>
+
+<body>
+    <div id="chart"></div>
+    <script>
+        var my_visualisation = new Flourish.Live({
+            container: "#chart",
+            api_key: "************ YOUR API KEY GOES HERE! ************",
+            base_visualisation_id: "6125058" // Make sure this visualization is published in the app
+        });
+    </script>
+</body>
+
+</html>
